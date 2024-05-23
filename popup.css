@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#fetchTitleBtn {
+    white-space: nowrap;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+#fetchTitleBtn:hover {
+    background-color: #0056b3;
+}
+
+
+#title-container {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabTitle {
+    margin-top: 20px;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+
+#copyBtn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: rgb(225, 225, 146);
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(1, 1, 1, 0.3) 0px 0px 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: black;
+}
+
+#copyBtn:hover {
+    background-color: rgb(205, 205, 126);
+    box-shadow: rgba(1, 1, 1, 0.5) 0px 0px 5px;
+}
